@@ -41,6 +41,7 @@ def allcommand(time_wait, time_wait_items, commands):
 
 # On creer les fichiers si ils existent
 def create_file():
+    command_file_exist()
     try:
         with open('times.ini'):
             print("le fichier times.ini existe déjà")
